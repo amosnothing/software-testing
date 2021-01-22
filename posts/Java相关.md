@@ -141,7 +141,7 @@ StringBuffer/StringBuilder：可变对象，前者线程安全，后者线程不
 
 ## 内存溢出是怎么回事？请举几个可能出现内存溢出的场景？
 
-![JVM内存分布](images/JVM内存分布.png)
+![JVM内存分布](../images/JVM内存分布.png)
 
 `内存溢出`(Out Of Memory，简称OOM)是指应用系统中存在无法回收的内存或使用的内存过多，最终使得程序运行要用到的内存大于能提供的最大内存。
 
@@ -177,7 +177,7 @@ StringBuffer/StringBuilder：可变对象，前者线程安全，后者线程不
 
 其运行流程图如下所示：
 
-![CMS垃圾回收流程](images/CMS流程.webp)
+![CMS垃圾回收流程](../images/CMS流程.webp)
 
 参考《[CMS垃圾收集器](https://juejin.cn/post/6844903782107578382)》
 
